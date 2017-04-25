@@ -5,6 +5,6 @@
     <h2><%= page.pageTitle %></h2>
     <img src="/images/<%= page.pageImage %>" alt="<%= page.pageTitle %>" />
     <p>Release Date: <%= page.releaseDate %></p>
-    <p>Rotten Tomatos Review: <%= page.pageLink %></p>
+    <p>Rotten Tomatos: <a href="<%= page.pageLink %>">Review</a></p>
   </article>
 <% include ../partials/footer %>
