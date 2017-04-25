@@ -1,7 +1,7 @@
 <% include ../partials/head %>
 <% include ../partials/header %>
 <% include ../partials/nav %>
-<h3>Upcoming Releases in Theatres</h3>
+<h2>Upcoming Releases in Theatres</h2>
 <% Object.keys(pages).forEach(function (id) { %>
   <div class="movie">
     <a href="<%= pages[id].pageUrl %>"><img src="/images/<%= pages[id].pageImage %>" alt="<%= pages[id].pageTitle %>"/></a>

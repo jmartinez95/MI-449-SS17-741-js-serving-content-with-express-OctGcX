@@ -17,21 +17,24 @@ createPage({
   pageTitle: 'Gaurdians of the Galaxy',
   pageUrl: '/gaurdians/',
   pageImage: 'Gaurdians.jpg',
-  releaseDate: 'May 5th, 2017'
+  releaseDate: 'May 5th, 2017',
+  pageLink: 'https://www.rottentomatoes.com/m/guardians_of_the_galaxy_vol_2/'
 })
 
 createPage({
   pageTitle: 'Pirates of the Caribean',
   pageUrl: '/pirates/',
   pageImage: 'Pirates.jpg',
-  releaseDate: 'May 26th, 2017'
+  releaseDate: 'May 26th, 2017',
+  pageLink: 'https://www.rottentomatoes.com/m/pirates_of_the_caribbean_dead_men_tell_no_tales'
 })
 
 createPage({
   pageTitle: 'Captain Underpants',
   pageUrl: '/underpants/',
   pageImage: 'Captain.jpg',
-  releaseDate: 'June 2nd, 2017'
+  releaseDate: 'June 2nd, 2017',
+  pageLink: 'https://www.rottentomatoes.com/m/captain_underpants_the_first_epic_movie'
 })
 
 app.get('/', function (request, response) {
