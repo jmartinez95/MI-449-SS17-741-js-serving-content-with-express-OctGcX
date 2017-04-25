@@ -1,0 +1,6 @@
+<nav>
+  <a href="/">Home</a>
+<% Object.keys(pages).forEach(function (id) { %>
+  <a href="<%= pages[id].pageUrl %>"><%= pages[id].pageTitle %></a>
+<% }) %>
+</nav>
